@@ -1,7 +1,7 @@
 plugins {
-    id("org.jetbrains.intellij") version "1.1.3"
+    id("org.jetbrains.intellij") version "1.5.2"
     java
-    kotlin("jvm") version "1.4.21"
+    kotlin("jvm") version "1.6.21"
     id("io.franzbecker.gradle-lombok") version "2.1"
     id("net.saliman.properties") version "1.5.1"
 }

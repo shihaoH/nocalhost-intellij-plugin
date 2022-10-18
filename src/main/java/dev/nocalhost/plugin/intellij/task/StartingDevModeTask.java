@@ -138,7 +138,7 @@ public class StartingDevModeTask extends BaseBackgroundTask {
                     .notifyError(
                             "Nocalhost",
                             "Please configure the <a href=\"https://nocalhost.dev/docs/reference/nh-config\">run/debug</a> command first.",
-                            (notification, event) -> BrowserUtil.browse("https://nocalhost.dev/docs/reference/nh-config/")
+                            () -> BrowserUtil.browse("https://nocalhost.dev/docs/reference/nh-config/")
                     );
             indicator.cancel();
             return;
